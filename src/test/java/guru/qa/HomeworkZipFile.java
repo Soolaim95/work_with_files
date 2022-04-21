@@ -21,7 +21,7 @@ public class HomeworkZipFile {
             ZipEntry zipPdfEntry = zipFile.getEntry("invoice-19.04.2022.pdf");
             InputStream inputStream = zipFile.getInputStream(zipPdfEntry);
             PDF pdf = new PDF(inputStream);
-            assertThat(pdf.text).contains("—˜ÂÚ π Ãÿ-0000269 ÓÚ 19.04.2022");
+            assertThat(pdf.text).contains("–°—á–µ—Ç ‚Ññ –ú–®-0000269 –æ—Ç 19.04.2022");
         }
 
         @Test
@@ -59,6 +59,6 @@ public class HomeworkZipFile {
                     .getSheetAt(0)
                     .getRow(10)
                     .getCell(1)
-                    .getStringCellValue()).contains("–ÓÏ‡¯Í‡");
+                    .getStringCellValue()).contains("–†–æ–º–∞—à–∫–∞");
         }
     }
