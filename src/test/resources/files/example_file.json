@@ -1,0 +1,14 @@
+{
+  "name": "Madame Uppercut",
+  "age": 39,
+  "secretIdentity": "Jane Wilson",
+  "address": {
+    "city": "New York",
+    "street": "NoName"
+  },
+  "powers": [
+    "Million tonne punch",
+    "Damage resistance",
+    "Superhuman reflexes"
+  ]
+}
